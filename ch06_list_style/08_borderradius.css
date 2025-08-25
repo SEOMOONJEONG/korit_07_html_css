@@ -1,0 +1,10 @@
+div {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  border: 5px solid navy;
+  border-radius: 50%;
+
+  /*content-box / border-box*/
+  box-sizing: content-box;
+}

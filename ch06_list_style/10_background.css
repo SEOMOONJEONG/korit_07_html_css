@@ -1,0 +1,24 @@
+.outer  {
+  width: 200px;
+  height: 200px;
+  background-color: #5f5f5f;
+  border-radius: 50%;
+  overflow: hidden; /* 자식 요소(inner)가 부모요소(outer)보다 클 경우에 가려주는 키워드인 overflow:hiedden; 적용 */
+  display: inline-block;
+}
+
+.inner {
+  height: 100%;
+  background-image: url(../learning_logs/female.png);
+  background-size: contain;
+  bacoground-position: center;
+  border-radius: 50%;
+}
+
+.inner_2 {
+  height: 100%;
+  background-image: url(../learning_logs/male.png);
+  background-size: contain;
+  bacoground-position: center;
+  border-radius: 50%;
+}
